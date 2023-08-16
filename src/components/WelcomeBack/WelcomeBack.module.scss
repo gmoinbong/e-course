@@ -1,0 +1,24 @@
+.welcomeBack {
+  color: #918c8c;
+  display: flex
+}
+
+.wrapper {
+  @apply pt-4
+}
+
+.img {
+  @apply w-72
+}
+
+.heading {
+  @apply font-semibold text-2xl pb-6 text-black;
+}
+
+.icon {
+  @apply text-green-500 pr-2;
+}
+
+.subHeading {
+  @apply font-medium text-lg flex items-center justify-center text-black pb-2;
+}

@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @apply text-white p-1 font-medium;
+  border: 2px solid #407BFF;
+  color: #407BFF;
+  border-radius: 12px;
+
+  svg {
+    margin: 4px;
+  }
+}

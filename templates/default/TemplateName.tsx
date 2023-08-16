@@ -1,9 +1,9 @@
-import styles from './TemplateName.module.scss';
+import st from './TemplateName.module.scss';
 
 interface TemplateNameProps { }
 
 export const TemplateName = ({ }: TemplateNameProps) => (
-  <div className={styles.templateName} >
+  <div className={st.templateName} >
     TemplateName Component
   </div>
 );

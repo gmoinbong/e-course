@@ -3,11 +3,11 @@ import { HiOutlineChatBubbleLeftRight } from 'react-icons/hi2';
 import Image from 'next/image';
 import supportIcon from '@media/CustomerSupport.png'
 
-import st from './SupportNav.module.scss';
+import st from './NavSupport.module.scss';
 
 interface SupportNavProps { }
 
-export const SupportNav = ({ }: SupportNavProps) => (
+export const NavSupport = ({ }: SupportNavProps) => (
   <div className={st.wrapper}>
     <span className={st.supportIcon}>
       <Image src={supportIcon} alt='Support message' />
@@ -19,4 +19,4 @@ export const SupportNav = ({ }: SupportNavProps) => (
   </div>
 );
 
-export default SupportNav;
+export default NavSupport;

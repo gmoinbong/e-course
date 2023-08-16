@@ -1,8 +1,11 @@
 .navbar {
-  @apply flex-row items-center p-4 pt-8;
+  @apply flex flex-col p-4 pt-0 items-start;
   padding-bottom: 38px;
-  width: 296px;
+  width: 286px;
 
+  .title {
+    @apply font-semibold;
+  }
 }
 
 .links {
@@ -16,9 +19,12 @@
   .icon {
     padding: 5px;
   }
+
+
 }
 
+
 .active {
-  @apply bg-blue-400 text-white;
+  @apply text-white bg-primary;
   cursor: default;
 }

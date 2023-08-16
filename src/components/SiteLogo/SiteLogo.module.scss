@@ -1,6 +1,5 @@
   .wrapper {
-    display: flex;
-    @apply pb-4 pl-2 pb-12;
+    @apply pb-12 flex items-start;
 
     h1 {
       @apply text-xl text-black font-bold flex items-center justify-center pt-4 pl-2

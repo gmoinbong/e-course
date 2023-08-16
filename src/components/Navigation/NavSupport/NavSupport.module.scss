@@ -1,37 +1,34 @@
 .wrapper {
-  @apply pt-4
+  @apply pt-12
 }
 
 .support {
-  padding-left: 16px;
+  padding-left: 10px;
   text-decoration: none;
   list-style: none;
   @apply flex items-center;
 
-
-
   .icon {
-    @apply bg-blue-400 text-white;
+    @apply text-white cursor-pointer;
     width: 64px;
     height: 48px;
     border-radius: 10px;
-
+    background-color: #407BFF;
   }
 
   .text {
-    @apply font-normal;
-    margin-left: 10px;
+    @apply font-normal cursor-pointer font-semibold;
+    padding-left: 10px;
   }
-
 }
 
 .supportIcon {
   display: flex;
-  justify-content: start;
-
+  justify-content: end;
+  @apply ml-16
 }
 
 .supportIcon img {
-  @apply w-44;
-  padding-bottom: 20px;
+  @apply w-48 pb-4;
+
 }
