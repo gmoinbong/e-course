@@ -1,0 +1,14 @@
+  .wrapper {
+    display: flex;
+    @apply pb-4 pl-2 pb-12;
+
+    h1 {
+      @apply text-xl text-black font-bold flex items-center justify-center pt-4 pl-2
+    }
+  }
+
+  .icon {
+    width: 48px;
+    @apply text-center;
+
+  }

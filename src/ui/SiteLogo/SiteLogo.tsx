@@ -1,12 +1,12 @@
-import React from 'react'
-import icon from '@media/icon_education.png'
-import Image from 'next/image'
-function SiteLogo() {
-  return (
-    <figure>
-      <Image src={icon} alt='Site logo'></Image>
-    </figure>
-  )
-}
+import Image from 'next/image';
+import icon from '@media/eductaion_logo.png'
+import st from './SiteLogo.module.scss';
 
-export default SiteLogo
+interface SiteLogoProps { }
+
+export const SiteLogo = ({ }: SiteLogoProps) => (
+  <figure className={st.wrapper}>
+    <Image className={st.icon} src={icon} alt='Site logo' />
+    <h1>E-Courses</h1>
+  </figure>
+);

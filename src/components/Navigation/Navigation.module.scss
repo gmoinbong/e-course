@@ -1,0 +1,24 @@
+.navbar {
+  @apply flex-row items-center p-4 pt-8;
+  padding-bottom: 38px;
+  width: 296px;
+
+}
+
+.links {
+  @apply text-black flex items-center w-64;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  .icon {
+    padding: 5px;
+  }
+}
+
+.active {
+  @apply bg-blue-400 text-white;
+  cursor: default;
+}

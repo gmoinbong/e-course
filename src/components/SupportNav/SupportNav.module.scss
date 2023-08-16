@@ -1,0 +1,37 @@
+.wrapper {
+  @apply pt-4
+}
+
+.support {
+  padding-left: 16px;
+  text-decoration: none;
+  list-style: none;
+  @apply flex items-center;
+
+
+
+  .icon {
+    @apply bg-blue-400 text-white;
+    width: 64px;
+    height: 48px;
+    border-radius: 10px;
+
+  }
+
+  .text {
+    @apply font-normal;
+    margin-left: 10px;
+  }
+
+}
+
+.supportIcon {
+  display: flex;
+  justify-content: start;
+
+}
+
+.supportIcon img {
+  @apply w-44;
+  padding-bottom: 20px;
+}
