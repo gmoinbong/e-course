@@ -1,4 +1,6 @@
+import { Header } from '@components/Header';
 import Navigation from '@components/Navigation';
+import { SearchBar } from '@components/Header/SearchBar';
 import React from 'react';
 
 type Props = {
@@ -9,7 +11,9 @@ export default function Layout({ children }: Props) {
   return (
     <div style={{ display: 'flex', paddingTop: '32px' }}>
       <Navigation />
-      <div >{children}</div>
+      <div style={{ width: "100%" }} >
+        <Header />
+        {children}</div>
     </div>
   );
 }

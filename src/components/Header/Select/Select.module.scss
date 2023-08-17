@@ -1,0 +1,11 @@
+.select {
+  height: 52px;
+  border: 6px solid rgb(56, 56, 56);
+  border-radius: 5px;
+  @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2;
+
+  &:focus {
+    outline: none;
+  }
+
+}

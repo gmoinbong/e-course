@@ -6,7 +6,7 @@ import { navLinksList } from './constants'
 export default function NavLinks() {
   const [activeIndex, setActiveIndex] = useState(0)
   return (
-    <>
+    <ul>
       {navLinksList.map((link, index) =>
         <li className={`${st.links} ${activeIndex === index ? st.active : ''}`}
           key={link.title} onClick={() => setActiveIndex(index)} >
@@ -14,6 +14,7 @@ export default function NavLinks() {
           <p className={st.title}>
             {link.title}
           </p>
-        </li>)}</>
+        </li>)}
+    </ul>
   )
 }

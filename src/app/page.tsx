@@ -1,11 +1,14 @@
+import { HomePage } from '@pages/HomePage/HomePage'
 import './globals.css'
-import Navigation from '@components/Navigation'
-import { Home } from '@pages/Home/index'
+import Layout from 'layouts/Layout/Layout'
 
 export default function App() {
   return (
     <>
-      <Home />
+      <Layout>
+        <HomePage />
+
+      </Layout>
     </>
   )
 }

@@ -1,0 +1,27 @@
+.SearchBar {
+  height: 52px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.label {
+  @apply mb-2 text-sm font-medium sr-only;
+
+}
+
+.wrapper {
+  @apply relative
+}
+
+.logoContainer {
+  @apply absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none
+}
+
+.icon {
+  @apply w-4 h-4 text-gray-500;
+  fill: none;
+}
+
+.input {
+  @apply block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50
+}
