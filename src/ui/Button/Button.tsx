@@ -6,9 +6,10 @@ type ButtonProps = {
   text: string;
   backgroundColor?: string;
   showArrow?: boolean;
+  className?: string;
 };
 
-const Button: React.FC<ButtonProps> = ({ text, backgroundColor = 'bg-primary', showArrow = false }) => {
+const Button: React.FC<ButtonProps> = ({ text, backgroundColor = 'bg-primary', showArrow = false, className }) => {
   const buttonClasses = `${st.button} ${backgroundColor}`;
 
   return (

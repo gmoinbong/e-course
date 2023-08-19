@@ -1,14 +1,13 @@
-import { HomePage } from '@pages/HomePage/HomePage'
-import './globals.css'
-import Layout from 'layouts/Layout/Layout'
+import { StatsComponent } from '@components/StatsComponent';
+import { WelcomeBack } from '@components/Home/WelcomeBack';
+import { SchoolSection } from '@components/Home/SchoolSection';
+interface HomePageProps { }
 
-export default function App() {
-  return (
-    <>
-      <Layout>
-        <HomePage />
-
-      </Layout>
-    </>
-  )
-}
+const index = ({ }: HomePageProps) => (
+  <main className='pl-2'>
+    <WelcomeBack />
+    <StatsComponent />
+    <SchoolSection />
+  </main>
+);
+export default index

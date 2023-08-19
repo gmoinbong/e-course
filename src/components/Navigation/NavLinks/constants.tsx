@@ -8,6 +8,7 @@ export interface NavLink {
   title: string;
   icon: IconType;
 }
+
 export const navLinksList: NavLink[] = [
   { title: 'Home', icon: <AiOutlineHome /> },
   { title: 'Dashboard', icon: <MdOutlineSpaceDashboard /> },

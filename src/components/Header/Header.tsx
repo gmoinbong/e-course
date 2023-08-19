@@ -3,7 +3,7 @@ import st from './Header.module.scss';
 import Balance from '@components/Balance/Balance';
 import Select from './Select/Select';
 import NotificationButton from '@components/NotificationButton/NotificationButton';
-import UserDropdown from '@components/UserDropdown/UserDropdown';
+import UserDropdown from '@components/Header/UserDropdown/UserDropdown';
 
 interface HeaderProps { }
 

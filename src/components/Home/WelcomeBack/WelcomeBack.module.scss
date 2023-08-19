@@ -1,9 +1,11 @@
 .welcomeBack {
+  @apply pt-6;
   max-width: 1375px;
   width: 100%;
   color: #918c8c;
   display: flex
 }
+
 
 
 
@@ -20,5 +22,5 @@
 }
 
 .subHeading {
-  @apply font-medium text-lg flex items-center justify-center text-black pb-2;
+  @apply font-medium text-lg flex items-center justify-center text-black pb-4;
 }

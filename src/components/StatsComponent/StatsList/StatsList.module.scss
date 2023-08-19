@@ -1,25 +1,69 @@
+$red :#fc4e44;
+$blue: #407BFF;
+$green: #2ECC40;
+$iBlue: #2d67e4;
+$iGreen: #0ab31e;
+$iRed: #e02218;
+
 .statsList {
-  display: flex;
-  justify-content: space-between;
+  @apply flex pl-8;
+
+  :hover {
+    border-radius: 10px;
+    color: white;
+
+    .count {
+      color: #fff;
+    }
+
+    .arrowIcon,
+    .title {
+      color: #ffff;
+    }
+  }
+
+  .hoverRed:hover {
+    background-color: $red;
+  }
+
+  .hoverBlue:hover {
+    background-color: $blue;
+
+
+  }
+
+  .hoverGreen:hover {
+    background-color: $green;
+  }
+}
+
+.test {
+  font-size: 12px;
 }
 
 .statsItem {
+  min-width: 200px;
   padding-right: 10px;
+  cursor: pointer;
+  padding: 8px;
+
+
 
   .statContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
   }
 
   .titleContainer {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .arrowIcon {
       padding-left: 5px;
       font-size: small;
-      @apply text-xs pl-2
+      @apply text-xs pl-2;
     }
   }
 
@@ -37,51 +81,55 @@
   }
 
   .time {
-    background-color: blue;
-    border-color: blue;
+    background-color: $iBlue;
+    border-color: $iBlue;
   }
 
+
   .certificates {
-    border-color: rgb(13, 150, 13);
-    background-color: rgb(13, 150, 13);
+    border-color: $iGreen;
+    background-color: $iGreen;
   }
 
   .courses {
-    border-color: red;
-    background-color: red;
-
+    border-color: $iRed;
+    background-color: $iRed;
   }
 
   .count {
-    @apply font-semibold text-2xl
+    @apply font-semibold text-2xl;
+
+
   }
 
-  .red {
-    color: red;
+  .countRed {
+    color: $red;
   }
 
-  .blue {
-    color: blue;
+  .countBlue {
+    color: $blue;
   }
 
-  .green {
-    color: green
+  .countGreen {
+    color: $green;
   }
+
+
 }
 
 .titleContainer {
   @apply pt-4;
-  font-weight: 300;
-  font-size: medium;
 
   .title {
-    cursor: pointer;
     color: #000;
+    font-size: medium;
+    font-weight: 400;
+
   }
 
   .arrowIcon {
+    min-width: 24px;
     padding-left: 10px;
     color: #5963f3;
-    cursor: pointer;
   }
 }
