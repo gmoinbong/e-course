@@ -1,3 +1,14 @@
 .Header {
   @apply pb-12 flex
 }
+
+.searchGroup {
+  width: 100%;
+  max-width: 632px;
+  @apply flex items-center pr-4
+}
+
+.userGroup {
+  width: 100%;
+  @apply flex items-center justify-end pr-12
+}

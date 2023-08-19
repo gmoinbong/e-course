@@ -1,15 +1,17 @@
 .balance {
-  display: flex;
-  align-items: center;
+  @apply pl-8 flex justify-between items-center;
+  max-width: 164px;
+  width: 100%;
   background-color: #407BFF;
   border-radius: 10px;
-  padding: 12px;
+  padding: 16px;
   color: white;
   height: 52px;
+  cursor: pointer;
 
   .icon {
-    margin-right: 12px;
     font-size: 24px;
+    min-width: 24px;
   }
 
   .text {
@@ -17,13 +19,15 @@
 
     font-size: 14px;
 
-    .label {
-      color: rgba(255, 255, 255, 0.7);
-    }
+
 
     .value {
-      @apply pl-2;
+      @apply pl-1;
       font-weight: bold;
     }
   }
+}
+
+.label {
+  color: #d6dfea
 }

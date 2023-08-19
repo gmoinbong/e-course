@@ -5,7 +5,7 @@ const options = ["Udemy", "Mate Academy"]
 
 const Select = () => (
   <select id="Courses" className={st.select} required>
-    <option selected disabled >Courses</option>
+    <option selected hidden  >Courses</option>
     {options.map((option, index) => (
       <option key={index} value={option}>
         {option}

@@ -11,10 +11,8 @@ const Balance = ({ balance }: BalanceProps) => (
     <div className={st.icon}>
       <AiOutlineDollar />
     </div>
-    <div className={st.text}>
-      <p className={st.label}>Balance</p>
-      <p className={st.value}>{balance}</p>
-    </div>
+    <p className={st.label}>Balance</p>
+    <p className={st.value}>${balance}</p>
   </div>
 );
 

@@ -1,6 +1,7 @@
 .SearchBar {
+  @apply min-w-max;
   height: 52px;
-  max-width: 500px;
+  max-width: 512px;
   width: 100%;
 }
 
