@@ -1,0 +1,41 @@
+.schoolCard {
+    min-width: 320px;
+    max-width: 320px;
+    height: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden; 
+    transition: 0.3s; 
+    border-radius: 12px;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    @apply flex flex-col justify-start items-center text-center flex-wrap text-center cursor-pointer ;
+  }
+  
+  .schoolImage {
+    min-height: 80px;
+    max-height: 80px;
+    width: 100%; 
+    object-fit: cover; 
+  }
+.schoolDetails{
+    @apply flex justify-between m-2
+}
+.schoolStudentsCount{
+    @apply pr-2
+}
+
+.schoolLocation{
+    min-height: 48px;
+    color: gray
+}
+.schoolStudentsCount, .schoolPrice{
+    @apply flex ;
+
+}
+.icon{
+  color: #407BFF;
+  font-weight: bold;
+    min-width: 24px;
+}
