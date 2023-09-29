@@ -14,16 +14,18 @@ export const SchoolSection = ({ }: SchoolSectionProps) => (
         <ViewAll />
       </Link>
     </div>
-    <div className={st.cardWrapper}>
+    <ul className={st.cardWrapper}>
       {schoolData.map((school, index) => (
-        <SchoolCard
-          key={index}
-          image={school.image}
-          title={school.title}
-          location={school.location}
-          studentsCount={school.studentsCount}
-          price={school.price} />
+        <li className={st.card} key={index}>
+          <SchoolCard
+            key={index}
+            image={school.image}
+            title={school.title}
+            location={school.location}
+            studentsCount={school.studentsCount}
+            price={school.price} />
+        </li>
       ))}
-    </div>
+    </ul>
   </div>
 );

@@ -1,13 +1,8 @@
-import { StatsComponent } from '@components/StatsComponent';
-import { WelcomeBack } from '@components/Home/WelcomeBack';
-import { SchoolSection } from '@components/Home/SchoolSection';
+import { Home } from "@pages/HomePage/Home";
+
 interface HomePageProps { }
 
 const index = ({ }: HomePageProps) => (
-  <main className='pl-2'>
-    <WelcomeBack />
-    <StatsComponent />
-    <SchoolSection />
-  </main>
+  <Home />
 );
 export default index
