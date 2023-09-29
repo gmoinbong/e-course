@@ -1,3 +1,4 @@
+import { Schedule } from "@components/Schedule";
 import { SchoolSection } from "@components/Home/SchoolSection";
 import { WelcomeBack } from "@components/Home/WelcomeBack";
 import { StatsComponent } from "@components/StatsComponent";
@@ -11,5 +12,7 @@ export const Home = ({ }: HomeProps) => (
     <WelcomeBack />
     <StatsComponent />
     <SchoolSection />
+    <Schedule />
   </main>
+
 );
