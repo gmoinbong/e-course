@@ -7,7 +7,7 @@ $iRed: #e02218;
 
 .statsList {
   @apply flex ;
-
+  border-radius: 10px;
   :hover {
     border-radius: 10px;
     color: white;
@@ -46,7 +46,6 @@ $iRed: #e02218;
   padding-right: 10px;
   cursor: pointer;
   padding: 8px;
-margin-left: 10px;
 
   .statContainer {
     display: flex;

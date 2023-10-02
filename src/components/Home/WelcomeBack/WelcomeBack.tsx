@@ -5,13 +5,15 @@ import icon from '@media/HomeWelcome_icon.jpg'
 import Image from 'next/image';
 import CoursesList from './CoursesList/CoursesList';
 
-interface WelcomeBackProps { }
+interface WelcomeBackProps {
+  profileName: string
+}
 
 
-export const WelcomeBack = ({ }: WelcomeBackProps) => (
+export const WelcomeBack = ({ profileName }: WelcomeBackProps) => (
   <div className={st.welcomeBack} >
     <div className={st.wrapper}>
-      <h4 className={st.heading}>Welcome back, Vladyslav!</h4>
+      <h4 className={st.heading}>Welcome back, {profileName}!</h4>
       <p className={st.subHeading}>
         <span className={st.icon}><FaExclamationCircle /></span>
         We have selected for you courses that may interest you:
