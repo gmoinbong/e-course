@@ -4,7 +4,6 @@ import st from './CourseGroup.module.scss';
 import { coursesData } from './constants';
 
 interface CourseGroupProps { }
-console.log(coursesData);
 
 export const CourseGroup = ({ }: CourseGroupProps) => (
   <div className={st.courseGroup} >

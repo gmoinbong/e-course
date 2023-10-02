@@ -3,7 +3,6 @@ import st from './CourseCard.module.scss';
 import { coursesData } from '../constants';
 
 interface CourseCardProps extends coursesData { }
-console.log(coursesData);
 
 export const CourseCard = ({ company, image, title }: CourseCardProps) => (
   <div className="bg-white rounded-lg p-4 pl-0 w-[400px] h-[100px] flex items-center">
