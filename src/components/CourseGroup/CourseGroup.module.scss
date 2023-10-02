@@ -1,0 +1,9 @@
+.courseGroup {
+}
+.titleGroup{
+    @apply flex justify-between items-center pt-4
+}
+.icon{
+    @apply w-8 h-10 cursor-pointer;
+    color: #407BFF;
+}
