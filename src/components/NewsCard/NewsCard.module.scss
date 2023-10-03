@@ -1,10 +1,26 @@
-.titleGroup{
+.titleGroup {
     @apply flex justify-between items-center pt-4;
 }
-.title{
-   @apply font-semibold text-2xl  text-black;
+
+.title {
+    @apply font-semibold text-2xl text-black;
 }
-.link{
-    color:#407BFF;
+
+.link {
+    color: #407BFF;
     @apply uppercase font-semibold cursor-pointer text-sm;
+}
+
+.imageBlock {
+    @apply flex justify-center;
+    border: 1px #7f7f80 solid ;
+    border-radius: 10px;
+
+    .image {
+        border-radius: 10px;
+        max-height: 200px;
+        max-width: 280px;
+        @apply w-full h-full;
+
+    }
 }
