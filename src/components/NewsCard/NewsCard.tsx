@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import st from './NewsCard.module.scss';
-import img from '@media/it-image.jpg'
+import img from '@media/news-image.png'
 interface NewsCardProps { }
 
 export const NewsCard = ({ }: NewsCardProps) => (
@@ -13,6 +13,9 @@ export const NewsCard = ({ }: NewsCardProps) => (
         Learn more
       </p>
     </div>
-    <Image  src={img} alt='img course'/>
+    <div className={st.imageBlock}>
+      <Image src={img} alt='img course'
+        className={st.image} />
+    </div>
   </div>
 );
