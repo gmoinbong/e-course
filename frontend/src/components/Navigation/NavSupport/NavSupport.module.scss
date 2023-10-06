@@ -1,0 +1,38 @@
+.wrapper {
+ width: 100%;
+}
+
+.support {
+  padding-left: 10px;
+  text-decoration: none;
+  list-style: none;
+  @apply flex items-center;
+
+  .icon {
+    @apply text-white cursor-pointer;
+    width: 64px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #407BFF;
+  }
+
+  .text {
+    @apply font-normal cursor-pointer font-semibold;
+    padding-left: 10px;
+  }
+}
+
+.supportIcon {
+  display: flex;
+  justify-content: end;
+  @apply ml-16
+}
+
+.supportIcon img {
+  @apply w-48 pb-4;
+
+}
+.image{
+  max-width: 256px;
+  width: 100%;
+}

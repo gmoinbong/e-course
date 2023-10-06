@@ -1,0 +1,26 @@
+.welcomeBack {
+  max-width: 1375px;
+  width: 100%;
+  color: #918c8c;
+  display: flex
+}
+
+
+
+
+.img {
+  @apply w-72
+}
+
+.heading {
+  @apply font-semibold text-2xl  text-black;
+}
+
+.icon {
+  @apply text-green-500 pr-2;
+}
+
+.subHeading {
+  @apply font-medium text-lg flex items-center justify-center text-black pt-6 ;
+}
+

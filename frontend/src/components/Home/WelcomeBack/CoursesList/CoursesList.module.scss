@@ -1,0 +1,13 @@
+.courseList {
+  @apply pt-4;
+}
+
+.course {
+  @apply pt-2;
+}
+
+.title {
+  @apply cursor-pointer;
+  color: #407BFF;
+  border-bottom: 1px solid #bfc2c5;
+}

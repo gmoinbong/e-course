@@ -1,0 +1,35 @@
+.navbar {
+  @apply flex flex-col p-4 pt-0  items-start pb-0;
+  max-width: 286px;
+  width: 100%;
+
+  .title {
+    @apply font-semibold;
+  }
+}
+
+.linksWrapper{
+  @apply flex justify-between flex-col pt-12;
+  height: 100%;
+  width: 100%;
+}
+
+.links {
+  @apply text-black flex items-center w-64;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+  .icon {
+    padding: 5px;
+  }
+
+
+}
+
+
+.active {
+  @apply text-white bg-primary;
+  cursor: default;
+}
