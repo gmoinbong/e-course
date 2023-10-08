@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import st from './CourseCard.module.scss';
 import { coursesData } from '../constants';
+import { MdKeyboardArrowRight } from 'react-icons/md';
 
 interface CourseCardProps extends coursesData { }
 
@@ -19,7 +20,8 @@ export const CourseCard = ({ company, image, title }: CourseCardProps) => (
       <div className="text-gray-500">{company}</div>
     </div>
     <div className="ml-auto">
-      <button className={`text-blue-500 ${st.arrow}`}>→</button>
+      <button className={st.arrow} > <MdKeyboardArrowRight className='w-10' />
+      </button>
     </div>
-  </div>
+  </div >
 );

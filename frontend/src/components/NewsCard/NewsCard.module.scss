@@ -1,5 +1,5 @@
 .titleGroup {
-    @apply flex justify-between items-center pt-4;
+    @apply flex justify-between items-center pt-3;
 }
 
 .title {
@@ -12,15 +12,14 @@
 }
 
 .imageBlock {
-    @apply flex justify-center;
-    border: 1px #7f7f80 solid ;
+    @apply flex justify-center pt-4;
     border-radius: 10px;
 
     .image {
         border-radius: 10px;
-        max-height: 200px;
+        max-height: 240px;
         max-width: 280px;
-        @apply w-full h-full;
+        @apply w-full h-full p-3;
 
     }
 }

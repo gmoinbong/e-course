@@ -8,7 +8,7 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <div style={{ display: 'flex', paddingTop: '32px' }}>
+    <div style={{ display: 'flex', paddingTop: '10px', paddingBottom: '10px' }}>
       <Navigation />
       <div style={{ width: "100%" }} >
         <Header />
